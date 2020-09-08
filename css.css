@@ -1,0 +1,162 @@
+*{
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  list-style: none;
+}
+.header{
+  width: 100%;
+  height: 80px;
+  display: block;
+  background-color: #101010;
+
+}
+.inner-header{
+  width: 1000px;
+  height: 100%;
+  display: block;
+  margin: 0 auto;
+}
+.logo-container{
+  display: table;
+  height: 100%;
+  float: left;
+}
+.logo-container h1{
+  display: table-cell;
+  vertical-align: middle;
+  color: white;
+  font-family: 'Sofia';
+  font-weight: 100;
+  padding-right: 10px;
+}
+.logo-container span{
+  font-weight: 800;
+}
+.navigation{
+  float: right;
+  height: 100%;
+}
+.navigation a{
+  height: 100%;
+  display: table;
+  float: left;
+  padding: 0px 20px;
+
+}
+.navigation a:last-child{
+  padding-right: 0;
+}
+.navigation a li{
+  display: table-cell;
+  vertical-align: middle;
+  height: 100%;
+  color: white;
+  font-family: 'Sofia';
+}
+.logo-container button{
+  display: table-cell;
+  border: 0;
+  border-radius: 3px;
+  float:right;
+}
+.logo-container button:hover{
+  background-color: red;
+  box-shadow: 5px 5px 12px 0px blue;
+}
+#title{
+  text-align: center;
+
+}
+#description{
+  text-align: center;
+  font-family: monospace;
+  font-size: 16px;
+  padding-bottom: 20px;
+}
+#survey-form{
+  padding-top: 45px;
+  margin-bottom: 50px;
+}
+body{
+  background-color: grey;
+  opacity: 90%;
+
+}
+.form{
+  text-align: left;
+  font-size: 20px;
+  width: 600px;
+  height:1100px;
+  background-color: gray;
+  display: block;
+  margin: auto;
+  padding-left: 20px;
+  box-shadow: 0px 5px 5px 7px blue;
+}
+.form input{
+  padding: 12px 65% 10px 0px;
+  border: 0;
+  border-radius: 5px;
+  padding-left: 15px;
+  margin-bottom: 20px;
+  font-family: monospace;
+}
+.form select{
+  padding: 10px 64% 10px 0px;
+  border: 0;
+  border-radius: 5px;
+  padding-left: 10px;
+  margin-bottom: 20px;
+  font-family: monospace;
+}
+.form label{
+  line-height:2;
+  font-family: 'Sofia'
+}
+#radio-btn{
+  font-size: 19px;
+  font-family: 'Sofia';
+}
+#check-btn{
+  font-size: 19px;
+  font-family: 'Sofia';
+}
+#number{
+  padding-right: 5
+}
+input[type=number] {
+    height: 30px;
+    line-height: 30px;
+    font-size: 16px;
+    padding: 0 17px;
+}
+input[type=number]::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    cursor:pointer;
+    display:block;
+    width:500px;
+    color: #333;
+    text-align:center;
+    position:relative;
+}
+input[type=number]:hover::-webkit-inner-spin-button {
+    background: #eee url('http://i.stack.imgur.com/YYySO.png') no-repeat 50% 50%;
+    width: 14px;
+    height: 14px;
+    padding: 4px;
+    position: relative;
+    right: 4px;
+    border-radius: 28px;
+}
+#submit{
+  width: 580px;
+  height: 50px;
+  font-weight: 300;
+  font-family: 'Sofia';
+  font-size: 32px;
+  padding-bottom: 10px;
+  margin-bottom: 10px;
+  background-color: green;
+  box-shadow: 5px 5px 8px 5px blue;
+}
